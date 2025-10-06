@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
+    bigdecimal (3.2.3)
+    json-schema (6.0.0)
+      addressable (~> 2.8)
+      bigdecimal (~> 3.1)
+    json_rpc_handler (0.1.1)
+    mcp (0.3.0)
+      json-schema (>= 4.1)
+      json_rpc_handler (~> 0.1)
+    nio4r (2.7.4)
+    public_suffix (6.0.2)
+    puma (7.0.3)
+      nio4r (~> 2.0)
+    rack (3.2.1)
+    rackup (2.2.1)
+      rack (>= 3)
+
+PLATFORMS
+  ruby
+  x86_64-darwin-24
+
+DEPENDENCIES
+  mcp (~> 0.3.0)
+  puma (~> 7.0)
+  rack (~> 3.2)
+  rackup (~> 2.2)
+
+BUNDLED WITH
+   2.6.9
